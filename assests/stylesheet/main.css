@@ -1,0 +1,171 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+#topbar {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+#topbar ul li i{
+    color: red;
+}
+#topbar ul li:first-child {
+    font-size: 18px;
+    color: #eee;
+    /* font-weight: bold; */
+}
+#topbar .bound {
+    padding: 10px 0px;
+}
+#topbar ul li {
+    display: inline-block;
+}
+#topbar ul {
+    text-align: center;
+}
+#topbar .navbar-brand {
+    color: #0099CC;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family: 'Playball';
+}
+
+#content_bar {
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/08-09-2018/eduversity_demo_Free/695053153/web/images/banner.jpg) no-repeat 0px 0px;
+    position: relative;
+    padding: 302px 0px;
+    z-index: 1;
+}
+#content_bar::after{
+    content: ""; 
+    background-color: #000;
+    opacity: 0.45; 
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#content_bar .text{    
+    text-align: right;
+    color: #fff;
+    font-size: 65px;
+    text-transform: capitalize;
+
+}
+#content_bar .text h4 {
+    font-size: 60px;
+}
+.btn-info1 {
+    background-color: #dc3545;
+    color: #eee;
+    border-color: #dc3545;
+    border-radius: 0;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.btn-info {
+    background-color: #117a8b;
+    color: #eee;
+    border-radius: 0px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-color: #117a8b;
+}
+#bottom_bar {
+    margin-top: 70px;
+}
+
+#bottom_bar h3{
+    font-size: 43px;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 0 6px 1px rgba(0,0,0,.1);
+}
+#bottom_bar .logo i {    
+    font-size: 50px;
+    color: #17a2b8;
+    margin: 53px 135px;
+}
+#bottom_bar .desc {
+    margin-top: 50px;
+}
+#bottom_bar .desc h5 {
+    font-size: 25px;
+    color: #dc3545;
+    text-transform: capitalize;
+
+}
+#bottom_bar .logo_1 i {    
+    font-size: 50px;
+    color: #17a2b8;
+    margin: 53px 26px;
+}
+#bottom_bar .desc_1 {
+    margin: 50px -130px;
+}
+#bottom_bar .desc_1 h5 {
+    font-size: 22px;
+    color: #dc3545;
+    text-transform: capitalize;
+
+}
+#bottom_bar .logo_2 i {    
+    font-size: 50px;
+    color: #17a2b8;
+    margin: 53px 157px;
+}
+#bottom_bar .desc_2 {
+    margin: 50px 13px;
+}
+#bottom_bar .desc_2 h5 {
+    font-size: 22px;
+    color: #dc3545;
+    text-transform: capitalize;
+}
+#offers {
+    padding: 80px 0px;
+}
+#offers .lg {   
+    padding: 71px 62px;
+    border: 1px solid red;
+    top: 75px;
+}
+#offers .lg span{
+    font-size: 26px;
+    font-weight: bold;
+}
+#offers .lg p{
+    font-size: 15px;
+    color: #888;
+    line-height: 25px;
+}
+
+#footer {
+    background-color: #222;
+    color: #888;
+    margin: 76px 0px;
+    padding: 55px 0px;
+}
+#footer .copy {
+    text-align: center;
+    margin: 30px 0px;
+}
+#footer .links {
+    font-size: 32px;
+    display: block;
+}
+
+
